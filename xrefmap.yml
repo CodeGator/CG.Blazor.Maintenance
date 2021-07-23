@@ -1,0 +1,78 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: CG.Blazor.Maintenance
+  name: CG.Blazor.Maintenance
+  href: api/CG.Blazor.Maintenance.html
+  commentId: N:CG.Blazor.Maintenance
+  fullName: CG.Blazor.Maintenance
+  nameWithType: CG.Blazor.Maintenance
+- uid: CG.Blazor.Maintenance.Module
+  name: Module
+  href: api/CG.Blazor.Maintenance.Module.html
+  commentId: T:CG.Blazor.Maintenance.Module
+  fullName: CG.Blazor.Maintenance.Module
+  nameWithType: Module
+- uid: CG.Blazor.Maintenance.Module.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)
+  name: Configure(IApplicationBuilder, IWebHostEnvironment)
+  href: api/CG.Blazor.Maintenance.Module.html#CG_Blazor_Maintenance_Module_Configure_Microsoft_AspNetCore_Builder_IApplicationBuilder_Microsoft_AspNetCore_Hosting_IWebHostEnvironment_
+  commentId: M:CG.Blazor.Maintenance.Module.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)
+  fullName: CG.Blazor.Maintenance.Module.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder, Microsoft.AspNetCore.Hosting.IWebHostEnvironment)
+  nameWithType: Module.Configure(IApplicationBuilder, IWebHostEnvironment)
+- uid: CG.Blazor.Maintenance.Module.Configure*
+  name: Configure
+  href: api/CG.Blazor.Maintenance.Module.html#CG_Blazor_Maintenance_Module_Configure_
+  commentId: Overload:CG.Blazor.Maintenance.Module.Configure
+  isSpec: "True"
+  fullName: CG.Blazor.Maintenance.Module.Configure
+  nameWithType: Module.Configure
+- uid: CG.Blazor.Maintenance.Module.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)
+  name: ConfigureServices(IServiceCollection, IConfiguration)
+  href: api/CG.Blazor.Maintenance.Module.html#CG_Blazor_Maintenance_Module_ConfigureServices_Microsoft_Extensions_DependencyInjection_IServiceCollection_Microsoft_Extensions_Configuration_IConfiguration_
+  commentId: M:CG.Blazor.Maintenance.Module.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)
+  fullName: CG.Blazor.Maintenance.Module.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfiguration)
+  nameWithType: Module.ConfigureServices(IServiceCollection, IConfiguration)
+- uid: CG.Blazor.Maintenance.Module.ConfigureServices*
+  name: ConfigureServices
+  href: api/CG.Blazor.Maintenance.Module.html#CG_Blazor_Maintenance_Module_ConfigureServices_
+  commentId: Overload:CG.Blazor.Maintenance.Module.ConfigureServices
+  isSpec: "True"
+  fullName: CG.Blazor.Maintenance.Module.ConfigureServices
+  nameWithType: Module.ConfigureServices
+- uid: CG.Blazor.Maintenance.Options
+  name: CG.Blazor.Maintenance.Options
+  href: api/CG.Blazor.Maintenance.Options.html
+  commentId: N:CG.Blazor.Maintenance.Options
+  fullName: CG.Blazor.Maintenance.Options
+  nameWithType: CG.Blazor.Maintenance.Options
+- uid: CG.Blazor.Maintenance.Options.PluginOptions
+  name: PluginOptions
+  href: api/CG.Blazor.Maintenance.Options.PluginOptions.html
+  commentId: T:CG.Blazor.Maintenance.Options.PluginOptions
+  fullName: CG.Blazor.Maintenance.Options.PluginOptions
+  nameWithType: PluginOptions
+- uid: CG.Blazor.Maintenance.Options.PluginOptions.MaintenanceMode
+  name: MaintenanceMode
+  href: api/CG.Blazor.Maintenance.Options.PluginOptions.html#CG_Blazor_Maintenance_Options_PluginOptions_MaintenanceMode
+  commentId: P:CG.Blazor.Maintenance.Options.PluginOptions.MaintenanceMode
+  fullName: CG.Blazor.Maintenance.Options.PluginOptions.MaintenanceMode
+  nameWithType: PluginOptions.MaintenanceMode
+- uid: CG.Blazor.Maintenance.Options.PluginOptions.MaintenanceMode*
+  name: MaintenanceMode
+  href: api/CG.Blazor.Maintenance.Options.PluginOptions.html#CG_Blazor_Maintenance_Options_PluginOptions_MaintenanceMode_
+  commentId: Overload:CG.Blazor.Maintenance.Options.PluginOptions.MaintenanceMode
+  isSpec: "True"
+  fullName: CG.Blazor.Maintenance.Options.PluginOptions.MaintenanceMode
+  nameWithType: PluginOptions.MaintenanceMode
+- uid: CG.Blazor.Maintenance.Pages
+  name: CG.Blazor.Maintenance.Pages
+  href: api/CG.Blazor.Maintenance.Pages.html
+  commentId: N:CG.Blazor.Maintenance.Pages
+  fullName: CG.Blazor.Maintenance.Pages
+  nameWithType: CG.Blazor.Maintenance.Pages
+- uid: CG.Blazor.Maintenance.Pages.Maintenance
+  name: Maintenance
+  href: api/CG.Blazor.Maintenance.Pages.Maintenance.html
+  commentId: T:CG.Blazor.Maintenance.Pages.Maintenance
+  fullName: CG.Blazor.Maintenance.Pages.Maintenance
+  nameWithType: Maintenance

@@ -1,0 +1,42 @@
+{
+  "api/CG.Blazor.Maintenance.html": {
+    "href": "api/CG.Blazor.Maintenance.html",
+    "title": "Namespace CG.Blazor.Maintenance",
+    "keywords": "Namespace CG.Blazor.Maintenance Classes Module This class represents the plugin module's startup logic."
+  },
+  "api/CG.Blazor.Maintenance.Module.html": {
+    "href": "api/CG.Blazor.Maintenance.Module.html",
+    "title": "Class Module",
+    "keywords": "Class Module This class represents the plugin module's startup logic. Inheritance System.Object CG.Blazor.Plugins.ModuleBase Module Implements CG.Blazor.Plugins.IModule Inherited Members System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ReferenceEquals(System.Object, System.Object) System.Object.ToString() Namespace : CG.Blazor.Maintenance Assembly : CG.Blazor.Maintenance.dll Syntax public class Module : ModuleBase, IModule Methods Configure(IApplicationBuilder, IWebHostEnvironment) Declaration public override void Configure(IApplicationBuilder app, IWebHostEnvironment env) Parameters Type Name Description Microsoft.AspNetCore.Builder.IApplicationBuilder app Microsoft.AspNetCore.Hosting.IWebHostEnvironment env Overrides CG.Blazor.Plugins.ModuleBase.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder, Microsoft.AspNetCore.Hosting.IWebHostEnvironment) ConfigureServices(IServiceCollection, IConfiguration) Declaration public override void ConfigureServices(IServiceCollection serviceCollection, IConfiguration configuration) Parameters Type Name Description Microsoft.Extensions.DependencyInjection.IServiceCollection serviceCollection Microsoft.Extensions.Configuration.IConfiguration configuration Overrides CG.Blazor.Plugins.ModuleBase.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfiguration) Implements CG.Blazor.Plugins.IModule"
+  },
+  "api/CG.Blazor.Maintenance.Options.html": {
+    "href": "api/CG.Blazor.Maintenance.Options.html",
+    "title": "Namespace CG.Blazor.Maintenance.Options",
+    "keywords": "Namespace CG.Blazor.Maintenance.Options Classes PluginOptions This class containes configuration settings related to the setup plugin."
+  },
+  "api/CG.Blazor.Maintenance.Options.PluginOptions.html": {
+    "href": "api/CG.Blazor.Maintenance.Options.PluginOptions.html",
+    "title": "Class PluginOptions",
+    "keywords": "Class PluginOptions This class containes configuration settings related to the setup plugin. Inheritance System.Object CG.DataAnnotations.ValidatableObject CG.Options.OptionsBase PluginOptions Implements System.ComponentModel.DataAnnotations.IValidatableObject Inherited Members CG.DataAnnotations.ValidatableObject.Validate(System.ComponentModel.DataAnnotations.ValidationContext) System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ReferenceEquals(System.Object, System.Object) System.Object.ToString() Namespace : CG.Blazor.Maintenance.Options Assembly : CG.Blazor.Maintenance.dll Syntax public class PluginOptions : OptionsBase, IValidatableObject Properties MaintenanceMode This property indicates whether maintenance mode has been manually enabled, or not. Declaration public bool MaintenanceMode { get; set; } Property Value Type Description System.Boolean Implements System.ComponentModel.DataAnnotations.IValidatableObject"
+  },
+  "api/CG.Blazor.Maintenance.Pages.html": {
+    "href": "api/CG.Blazor.Maintenance.Pages.html",
+    "title": "Namespace CG.Blazor.Maintenance.Pages",
+    "keywords": "Namespace CG.Blazor.Maintenance.Pages Classes Maintenance This class is the code-behind for the Maintenance razor page."
+  },
+  "api/CG.Blazor.Maintenance.Pages.Maintenance.html": {
+    "href": "api/CG.Blazor.Maintenance.Pages.Maintenance.html",
+    "title": "Class Maintenance",
+    "keywords": "Class Maintenance This class is the code-behind for the Maintenance razor page. Inheritance System.Object Maintenance Inherited Members System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ReferenceEquals(System.Object, System.Object) System.Object.ToString() Namespace : CG.Blazor.Maintenance.Pages Assembly : CG.Blazor.Maintenance.dll Syntax public class Maintenance"
+  },
+  "articles/intro.html": {
+    "href": "articles/intro.html",
+    "title": "Add your introductions here!",
+    "keywords": "Add your introductions here!"
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "Introduction",
+    "keywords": "Introduction CG.Blazor.Maintenance.dll contains a Blazor plugin to manage maintenance mode."
+  }
+}
