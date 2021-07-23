@@ -1,14 +1,14 @@
 # CG.Blazor.Maintenance: 
 ---
-[![Build Status](https://dev.azure.com/codegator/CG.Blazor.Maintenance/_apis/build/status/CodeGator.CG.Blazor.Maintenance?branchName=main)](https://dev.azure.com/codegator/CG.Blazor.Maintenance/_build/latest?definitionId=25&branchName=main)
+[![Build Status](https://dev.azure.com/codegator/CG.Blazor.Maintenance/_apis/build/status/CodeGator.CG.Blazor.Maintenance?branchName=main)](https://dev.azure.com/codegator/CG.Blazor.Maintenance/_build/latest?definitionId=71&branchName=main)
 [![Github docs](https://img.shields.io/static/v1?label=Documentation&message=online&color=blue)](https://codegator.github.io/CG.Blazor.Maintenance/index.html)
 [![NuGet downloads](https://img.shields.io/nuget/dt/CG.Blazor.Maintenance.svg?style=flat)](https://nuget.org/packages/CG.Blazor.Maintenance)
-![Azure DevOps coverage](https://img.shields.io/azure-devops/coverage/codegator/CG.Blazor.Maintenance/25)
+![Azure DevOps coverage](https://img.shields.io/azure-devops/coverage/codegator/CG.Blazor.Maintenance/71)
 [![Github discussion](https://img.shields.io/badge/Discussion-online-blue)](https://github.com/CodeGator/CG.Blazor.Maintenance/discussions)
 [![CG.Blazor.Maintenance on fuget.org](https://www.fuget.org/packages/CG.Blazor.Maintenance/badge.svg)](https://www.fuget.org/packages/CG.Blazor.Maintenance)
 
 #### What does it do?
-The package defines a Blazor plugin for managing maintenance modes.
+The package defines a Blazor plugin for managing maintenance mode.
 
 #### What platform(s) does it support?
 * .NET 5.x or higher
