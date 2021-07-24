@@ -1,7 +1,4 @@
-﻿using CG.Blazor.Maintenance.Options;
-using Microsoft.AspNetCore.Components;
-using Microsoft.Extensions.Options;
-using System;
+﻿using System;
 
 namespace CG.Blazor.Maintenance.Pages
 {
@@ -10,18 +7,6 @@ namespace CG.Blazor.Maintenance.Pages
     /// </summary>
     public partial class Maintenance
     {
-        // *******************************************************************
-        // Properties.
-        // *******************************************************************
-
-        #region Properties
-
-        /// <summary>
-        /// This property contains the plugin options.
-        /// </summary>
-        [Inject]
-        private IOptions<PluginOptions> PluginOptions { get; set; }
-
-        #endregion
+        
     }
 }
