@@ -45,6 +45,38 @@ references:
   commentId: N:CG.Blazor.Maintenance.Options
   fullName: CG.Blazor.Maintenance.Options
   nameWithType: CG.Blazor.Maintenance.Options
+- uid: CG.Blazor.Maintenance.Options.MaintenanceWindowOptions
+  name: MaintenanceWindowOptions
+  href: api/CG.Blazor.Maintenance.Options.MaintenanceWindowOptions.html
+  commentId: T:CG.Blazor.Maintenance.Options.MaintenanceWindowOptions
+  fullName: CG.Blazor.Maintenance.Options.MaintenanceWindowOptions
+  nameWithType: MaintenanceWindowOptions
+- uid: CG.Blazor.Maintenance.Options.MaintenanceWindowOptions.CRON
+  name: CRON
+  href: api/CG.Blazor.Maintenance.Options.MaintenanceWindowOptions.html#CG_Blazor_Maintenance_Options_MaintenanceWindowOptions_CRON
+  commentId: P:CG.Blazor.Maintenance.Options.MaintenanceWindowOptions.CRON
+  fullName: CG.Blazor.Maintenance.Options.MaintenanceWindowOptions.CRON
+  nameWithType: MaintenanceWindowOptions.CRON
+- uid: CG.Blazor.Maintenance.Options.MaintenanceWindowOptions.CRON*
+  name: CRON
+  href: api/CG.Blazor.Maintenance.Options.MaintenanceWindowOptions.html#CG_Blazor_Maintenance_Options_MaintenanceWindowOptions_CRON_
+  commentId: Overload:CG.Blazor.Maintenance.Options.MaintenanceWindowOptions.CRON
+  isSpec: "True"
+  fullName: CG.Blazor.Maintenance.Options.MaintenanceWindowOptions.CRON
+  nameWithType: MaintenanceWindowOptions.CRON
+- uid: CG.Blazor.Maintenance.Options.MaintenanceWindowOptions.Duration
+  name: Duration
+  href: api/CG.Blazor.Maintenance.Options.MaintenanceWindowOptions.html#CG_Blazor_Maintenance_Options_MaintenanceWindowOptions_Duration
+  commentId: P:CG.Blazor.Maintenance.Options.MaintenanceWindowOptions.Duration
+  fullName: CG.Blazor.Maintenance.Options.MaintenanceWindowOptions.Duration
+  nameWithType: MaintenanceWindowOptions.Duration
+- uid: CG.Blazor.Maintenance.Options.MaintenanceWindowOptions.Duration*
+  name: Duration
+  href: api/CG.Blazor.Maintenance.Options.MaintenanceWindowOptions.html#CG_Blazor_Maintenance_Options_MaintenanceWindowOptions_Duration_
+  commentId: Overload:CG.Blazor.Maintenance.Options.MaintenanceWindowOptions.Duration
+  isSpec: "True"
+  fullName: CG.Blazor.Maintenance.Options.MaintenanceWindowOptions.Duration
+  nameWithType: MaintenanceWindowOptions.Duration
 - uid: CG.Blazor.Maintenance.Options.PluginOptions
   name: PluginOptions
   href: api/CG.Blazor.Maintenance.Options.PluginOptions.html

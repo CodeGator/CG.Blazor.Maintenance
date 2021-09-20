@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class Module
+    <title>Class MaintenanceWindowOptions
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class Module
+    <meta name="title" content="Class MaintenanceWindowOptions
    ">
     <meta name="generator" content="docfx 2.58.4.0">
     
@@ -78,26 +78,31 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CG.Blazor.Maintenance.Module">
+            <article class="content wrap" id="_content" data-uid="CG.Blazor.Maintenance.Options.MaintenanceWindowOptions">
   
   
-  <h1 id="CG_Blazor_Maintenance_Module" data-uid="CG.Blazor.Maintenance.Module" class="text-break">Class Module
+  <h1 id="CG_Blazor_Maintenance_Options_MaintenanceWindowOptions" data-uid="CG.Blazor.Maintenance.Options.MaintenanceWindowOptions" class="text-break">Class MaintenanceWindowOptions
   </h1>
-  <div class="markdown level0 summary"><p>This class represents the plugin module's startup logic.</p>
+  <div class="markdown level0 summary"><p>This class contains configuration settings related to an automated
+maintenance window.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">CG.Blazor.Plugins.ModuleBase</span></div>
-    <div class="level2"><span class="xref">Module</span></div>
+    <div class="level1"><span class="xref">CG.DataAnnotations.ValidatableObject</span></div>
+    <div class="level2"><span class="xref">CG.Options.OptionsBase</span></div>
+    <div class="level3"><span class="xref">MaintenanceWindowOptions</span></div>
   </div>
   <div classs="implements">
     <h5>Implements</h5>
-    <div><span class="xref">CG.Blazor.Plugins.IModule</span></div>
+    <div><span class="xref">System.ComponentModel.DataAnnotations.IValidatableObject</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">CG.DataAnnotations.ValidatableObject.Validate(System.ComponentModel.DataAnnotations.ValidationContext)</span>
+    </div>
     <div>
       <span class="xref">System.Object.Equals(System.Object)</span>
     </div>
@@ -120,81 +125,69 @@
       <span class="xref">System.Object.ToString()</span>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="CG.Blazor.Maintenance.html">CG.Blazor.Maintenance</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CG.Blazor.Maintenance.Options.html">CG.Blazor.Maintenance.Options</a></h6>
   <h6><strong>Assembly</strong>: CG.Blazor.Maintenance.dll</h6>
-  <h5 id="CG_Blazor_Maintenance_Module_syntax">Syntax</h5>
+  <h5 id="CG_Blazor_Maintenance_Options_MaintenanceWindowOptions_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class Module : ModuleBase, IModule</code></pre>
+    <pre><code class="lang-csharp hljs">public class MaintenanceWindowOptions : OptionsBase, IValidatableObject</code></pre>
   </div>
-  <h3 id="methods">Methods
+  <h3 id="properties">Properties
   </h3>
-  <a id="CG_Blazor_Maintenance_Module_Configure_" data-uid="CG.Blazor.Maintenance.Module.Configure*"></a>
-  <h4 id="CG_Blazor_Maintenance_Module_Configure_Microsoft_AspNetCore_Builder_IApplicationBuilder_Microsoft_AspNetCore_Hosting_IWebHostEnvironment_" data-uid="CG.Blazor.Maintenance.Module.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">Configure(IApplicationBuilder, IWebHostEnvironment)</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="CG_Blazor_Maintenance_Options_MaintenanceWindowOptions_CRON_" data-uid="CG.Blazor.Maintenance.Options.MaintenanceWindowOptions.CRON*"></a>
+  <h4 id="CG_Blazor_Maintenance_Options_MaintenanceWindowOptions_CRON" data-uid="CG.Blazor.Maintenance.Options.MaintenanceWindowOptions.CRON">CRON</h4>
+  <div class="markdown level1 summary"><p>This property contains an optional CRON expression for scheduling
+an automated maintenance window. If this property isn't specified,
+no maintenance window is opened.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void Configure(IApplicationBuilder app, IWebHostEnvironment env)</code></pre>
+    <pre><code class="lang-csharp hljs">public string CRON { get; set; }</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Microsoft.AspNetCore.Builder.IApplicationBuilder</span></td>
-        <td><span class="parametername">app</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">Microsoft.AspNetCore.Hosting.IWebHostEnvironment</span></td>
-        <td><span class="parametername">env</span></td>
+        <td><span class="xref">System.String</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">CG.Blazor.Plugins.ModuleBase.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder, Microsoft.AspNetCore.Hosting.IWebHostEnvironment)</span></div>
-  <a id="CG_Blazor_Maintenance_Module_ConfigureServices_" data-uid="CG.Blazor.Maintenance.Module.ConfigureServices*"></a>
-  <h4 id="CG_Blazor_Maintenance_Module_ConfigureServices_Microsoft_Extensions_DependencyInjection_IServiceCollection_Microsoft_Extensions_Configuration_IConfiguration_" data-uid="CG.Blazor.Maintenance.Module.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)">ConfigureServices(IServiceCollection, IConfiguration)</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="CG_Blazor_Maintenance_Options_MaintenanceWindowOptions_Duration_" data-uid="CG.Blazor.Maintenance.Options.MaintenanceWindowOptions.Duration*"></a>
+  <h4 id="CG_Blazor_Maintenance_Options_MaintenanceWindowOptions_Duration" data-uid="CG.Blazor.Maintenance.Options.MaintenanceWindowOptions.Duration">Duration</h4>
+  <div class="markdown level1 summary"><p>This property contains an optional duration for an automated
+maintenance window. If this property isn't specified, it defaults
+to a fifteen minute duration.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void ConfigureServices(IServiceCollection serviceCollection, IConfiguration configuration)</code></pre>
+    <pre><code class="lang-csharp hljs">public TimeSpan? Duration { get; set; }</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Microsoft.Extensions.DependencyInjection.IServiceCollection</span></td>
-        <td><span class="parametername">serviceCollection</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">Microsoft.Extensions.Configuration.IConfiguration</span></td>
-        <td><span class="parametername">configuration</span></td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.TimeSpan</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">CG.Blazor.Plugins.ModuleBase.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfiguration)</span></div>
   <h3 id="implements">Implements</h3>
   <div>
-      <span class="xref">CG.Blazor.Plugins.IModule</span>
+      <span class="xref">System.ComponentModel.DataAnnotations.IValidatableObject</span>
   </div>
 </article>
           </div>

@@ -12,7 +12,12 @@
   "api/CG.Blazor.Maintenance.Options.html": {
     "href": "api/CG.Blazor.Maintenance.Options.html",
     "title": "Namespace CG.Blazor.Maintenance.Options",
-    "keywords": "Namespace CG.Blazor.Maintenance.Options Classes PluginOptions This class containes configuration settings related to the setup plugin."
+    "keywords": "Namespace CG.Blazor.Maintenance.Options Classes MaintenanceWindowOptions This class contains configuration settings related to an automated maintenance window. PluginOptions This class containes configuration settings related to the setup plugin."
+  },
+  "api/CG.Blazor.Maintenance.Options.MaintenanceWindowOptions.html": {
+    "href": "api/CG.Blazor.Maintenance.Options.MaintenanceWindowOptions.html",
+    "title": "Class MaintenanceWindowOptions",
+    "keywords": "Class MaintenanceWindowOptions This class contains configuration settings related to an automated maintenance window. Inheritance System.Object CG.DataAnnotations.ValidatableObject CG.Options.OptionsBase MaintenanceWindowOptions Implements System.ComponentModel.DataAnnotations.IValidatableObject Inherited Members CG.DataAnnotations.ValidatableObject.Validate(System.ComponentModel.DataAnnotations.ValidationContext) System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ReferenceEquals(System.Object, System.Object) System.Object.ToString() Namespace : CG.Blazor.Maintenance.Options Assembly : CG.Blazor.Maintenance.dll Syntax public class MaintenanceWindowOptions : OptionsBase, IValidatableObject Properties CRON This property contains an optional CRON expression for scheduling an automated maintenance window. If this property isn't specified, no maintenance window is opened. Declaration public string CRON { get; set; } Property Value Type Description System.String Duration This property contains an optional duration for an automated maintenance window. If this property isn't specified, it defaults to a fifteen minute duration. Declaration public TimeSpan? Duration { get; set; } Property Value Type Description System.Nullable < System.TimeSpan > Implements System.ComponentModel.DataAnnotations.IValidatableObject"
   },
   "api/CG.Blazor.Maintenance.Options.PluginOptions.html": {
     "href": "api/CG.Blazor.Maintenance.Options.PluginOptions.html",
