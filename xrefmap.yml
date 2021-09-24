@@ -7,6 +7,25 @@ references:
   commentId: N:CG.Blazor.Maintenance
   fullName: CG.Blazor.Maintenance
   nameWithType: CG.Blazor.Maintenance
+- uid: CG.Blazor.Maintenance.MaintenanceRedirector
+  name: MaintenanceRedirector
+  href: api/CG.Blazor.Maintenance.MaintenanceRedirector.html
+  commentId: T:CG.Blazor.Maintenance.MaintenanceRedirector
+  fullName: CG.Blazor.Maintenance.MaintenanceRedirector
+  nameWithType: MaintenanceRedirector
+- uid: CG.Blazor.Maintenance.MaintenanceRedirector.OnNavigateAsync(Microsoft.AspNetCore.Components.Routing.NavigationContext,Microsoft.AspNetCore.Components.NavigationManager)
+  name: OnNavigateAsync(NavigationContext, NavigationManager)
+  href: api/CG.Blazor.Maintenance.MaintenanceRedirector.html#CG_Blazor_Maintenance_MaintenanceRedirector_OnNavigateAsync_Microsoft_AspNetCore_Components_Routing_NavigationContext_Microsoft_AspNetCore_Components_NavigationManager_
+  commentId: M:CG.Blazor.Maintenance.MaintenanceRedirector.OnNavigateAsync(Microsoft.AspNetCore.Components.Routing.NavigationContext,Microsoft.AspNetCore.Components.NavigationManager)
+  fullName: CG.Blazor.Maintenance.MaintenanceRedirector.OnNavigateAsync(Microsoft.AspNetCore.Components.Routing.NavigationContext, Microsoft.AspNetCore.Components.NavigationManager)
+  nameWithType: MaintenanceRedirector.OnNavigateAsync(NavigationContext, NavigationManager)
+- uid: CG.Blazor.Maintenance.MaintenanceRedirector.OnNavigateAsync*
+  name: OnNavigateAsync
+  href: api/CG.Blazor.Maintenance.MaintenanceRedirector.html#CG_Blazor_Maintenance_MaintenanceRedirector_OnNavigateAsync_
+  commentId: Overload:CG.Blazor.Maintenance.MaintenanceRedirector.OnNavigateAsync
+  isSpec: "True"
+  fullName: CG.Blazor.Maintenance.MaintenanceRedirector.OnNavigateAsync
+  nameWithType: MaintenanceRedirector.OnNavigateAsync
 - uid: CG.Blazor.Maintenance.Module
   name: Module
   href: api/CG.Blazor.Maintenance.Module.html

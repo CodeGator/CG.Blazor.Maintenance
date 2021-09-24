@@ -2,7 +2,12 @@
   "api/CG.Blazor.Maintenance.html": {
     "href": "api/CG.Blazor.Maintenance.html",
     "title": "Namespace CG.Blazor.Maintenance",
-    "keywords": "Namespace CG.Blazor.Maintenance Classes Module This class represents the plugin module's startup logic."
+    "keywords": "Namespace CG.Blazor.Maintenance Classes MaintenanceRedirector This class utility exposes a static callback for hooking into client- side navigation events during maintenance mode. Module This class represents the plugin module's startup logic."
+  },
+  "api/CG.Blazor.Maintenance.MaintenanceRedirector.html": {
+    "href": "api/CG.Blazor.Maintenance.MaintenanceRedirector.html",
+    "title": "Class MaintenanceRedirector",
+    "keywords": "Class MaintenanceRedirector This class utility exposes a static callback for hooking into client- side navigation events during maintenance mode. Inheritance System.Object MaintenanceRedirector Inherited Members System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ReferenceEquals(System.Object, System.Object) System.Object.ToString() Namespace : CG.Blazor.Maintenance Assembly : CG.Blazor.Maintenance.dll Syntax public static class MaintenanceRedirector Methods OnNavigateAsync(NavigationContext, NavigationManager) This method may be wired up to Blazor's Microsoft.AspNetCore.Components.Routing.Router.OnNavigateAsync callback, in the App.razor file, in order to gain the ability to redirect client-side navigation events to server-side navigation events, during maintenance mode. Declaration public static Task OnNavigateAsync(NavigationContext navigationContext, NavigationManager navigationManager) Parameters Type Name Description Microsoft.AspNetCore.Components.Routing.NavigationContext navigationContext The navigation context to use for the operation. Microsoft.AspNetCore.Components.NavigationManager navigationManager The navigation manager to use for the operation. Returns Type Description System.Threading.Tasks.Task A task to perform the operation."
   },
   "api/CG.Blazor.Maintenance.Module.html": {
     "href": "api/CG.Blazor.Maintenance.Module.html",
