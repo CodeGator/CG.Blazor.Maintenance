@@ -1,5 +1,4 @@
-﻿using Microsoft.AspNetCore.Builder;
-using Microsoft.Extensions.DependencyInjection;
+﻿using Microsoft.Extensions.DependencyInjection;
 using System;
 
 namespace CG.Blazor.Maintenance
@@ -11,11 +10,10 @@ namespace CG.Blazor.Maintenance
     /// <para>
     /// Yes, yes, I know. Service locator is bad. Service locator is an 
     /// anti-pattern. Service locator is the devil. Service locator eats newborn 
-    /// babies for lunch and smashes baby puppies, just for fun. I know, I know 
-    /// all about it. I do! But, I need a service provider within a static 
-    /// callback, and so ... It seems we are reduced to associating with the 
-    /// hustlers and the thieves of the software engineering world. Forever 
-    /// unclean!!
+    /// babies for lunch and smashes baby puppies for fun. I know, I do! But, 
+    /// I need a service provider within a static callback, and so ... It seems 
+    /// we are reduced to associating with the hustlers and the thieves of the 
+    /// software engineering world. Forever unclean!!
     /// </para>
     /// </remarks>
     internal class ServiceLocator

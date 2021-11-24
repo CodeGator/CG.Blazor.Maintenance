@@ -58,9 +58,6 @@ namespace CG.Blazor.Maintenance
             Guard.Instance().ThrowIfNull(app, nameof(app))
                 .ThrowIfNull(env, nameof(env));
 
-            // Setup the service locator.
-            ServiceLocator.ServiceProvider = app.ApplicationServices;
-
             // Get the maintenance rule.
             var rule = app.ApplicationServices.GetRequiredService<MaintenanceModeRule>();
 

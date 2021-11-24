@@ -79,8 +79,7 @@ namespace CG.Blazor.Maintenance.Rules
                 {
                     // Tell the world what we're doing.
                     _logger.LogInformation(
-                        "Rewriting url '{Url1}' to '/maintainance'",
-                        context.HttpContext.Request.Path.Value
+                        $"Rewriting url '{context.HttpContext.Request.Path.Value}' to '/maintainance'"
                         );
 
                     // Rewrite the url.
@@ -97,8 +96,7 @@ namespace CG.Blazor.Maintenance.Rules
                 {
                     // Tell the world what we're doing.
                     _logger.LogInformation(
-                        "Rewriting url '{Url1}' to '/'",
-                        context.HttpContext.Request.Path.Value
+                        $"Rewriting url '{context.HttpContext.Request.Path.Value}' to '/'"
                         );
 
                     // Rewrite the url.

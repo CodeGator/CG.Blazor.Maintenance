@@ -11,7 +11,7 @@
 The package defines a Blazor plugin for managing maintenance mode.
 
 #### What platform(s) does it support?
-* .NET 5.x or higher
+* .NET 6.x or higher
 
 #### How do I install it?
 The binary is hosted on [NuGet](https://www.nuget.org/packages/CG.Blazor.Maintenance/). To install the package using the NuGet package manager:

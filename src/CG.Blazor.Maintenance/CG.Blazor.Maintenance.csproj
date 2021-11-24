@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
 
   <PropertyGroup>
-    <TargetFramework>net5.0</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <Authors>Martin Cook</Authors>
@@ -9,15 +9,17 @@
     <Description>This package contains a Blazor plugin for managing maintenance mode. 
 
 Platforms supported:
-    .NET 5.x or above</Description>
+    .NET 6.x or above</Description>
     <PackageProjectUrl>https://github.com/CodeGator/CG.Blazor.Maintenance</PackageProjectUrl>
-    <Copyright>Copyright © 2021 by CodeGator. All rights reserved.</Copyright>
+    <Copyright>Copyright © 2021 - 2022 by CodeGator. All rights reserved.</Copyright>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <RepositoryUrl>MIThttps://github.com/CodeGator/CG.Blazor.Mvvm</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>maintenance mode, blazor, plugin, CG.Blazor.Maintenance, CodeGator</PackageTags>
     <PackageIcon>packageDefaultIcon-50x50.png</PackageIcon>
     <PackageIconUrl />
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <DocumentationFile>bin/Debug/net6.0/CG.Blazor.Maintenance.xml</DocumentationFile>
   </PropertyGroup>
 
 
@@ -26,9 +28,9 @@ Platforms supported:
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="CG.Blazor.Plugins" Version="2021.1.6" />
-    <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="5.0.10" />
-    <PackageReference Include="Nerdbank.GitVersioning" Version="3.4.231">
+    <PackageReference Include="CG.Blazor.Plugins" Version="2022.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="6.0.0" />
+    <PackageReference Include="Nerdbank.GitVersioning" Version="3.4.244">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
